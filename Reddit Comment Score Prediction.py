@@ -248,7 +248,7 @@ pred_y3 = randForest.predict(x_val)
 # Root mean squared error 
 print('Root Mean Squared Error is: ', np.sqrt(mean_squared_error(y_val, pred_y3)))
 
-
+test_data=pd.read_csv(r"C:\Users\Avanish\Dropbox\PC\Downloads\Test_Data.csv")
 # In[ ]:
 
 
